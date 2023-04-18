@@ -1,53 +1,46 @@
-<aside class="profile-card">
-  <header>
-    <!-- here’s the avatar -->
-    <a target="_blank" href="#">
-      <img src="http://lorempixel.com/150/150/people/" class="hoverZoomLink">
-    </a>
-
-    <!-- the username -->
-    <h1>
-            Arseniy Yakunin
-          </h1>
-
-    <!-- and role or location -->
-    <h2>
-            Системный администратор
-          </h2>
-
-  </header>
-
-  <!-- bit of a bio; who are you? -->
-  <div class="profile-bio">
-
-    <p>
-     Работаю сисадмином. В течении августа строил сеть на муниципальных объектах Мурино (Ленинградская область). Работаю как с физ лицами, так и юридическими лицами. 
-    </p>
-
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Поиск</title>
+  <style>
+    body {
+      background-color: #333;
+      color: #fff;
+    }
+    #search-container {
+      text-align: center;
+      margin-top: 100px;
+    }
+    input[type=text] {
+      width: 500px;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      background-color: #ddd;
+      color: #333;
+      font-size: 18px;
+      outline: none;
+    }
+    input[type=submit] {
+      background-color: #ff0000;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div id="search-container">
+    <h1>Поиск</h1>
+    <form>
+      <input type="text" placeholder="Введите запрос...">
+      <br><br>
+      <input type="submit" value="Найти">
+    </form>
   </div>
-
-  <!-- some social links to show off -->
-  <ul class="profile-social-links">
-    <li>
-      <a target="_blank" href="https://www.facebook.com/creativedonut">
-        <i class="fa fa-facebook"></i>
-      </a>
-    </li>
-    <li>
-      <a target="_blank" href="https://twitter.com/dropyourbass">
-        <i class="fa fa-twitter"></i>
-      </a>
-    </li>
-    <li>
-      <a target="_blank" href="https://github.com/vipulsaxena">
-        <i class="fa fa-github"></i>
-      </a>
-    </li>
-    <li>
-      <a target="_blank" href="https://www.behance.net/vipulsaxena">
-       
-        <i class="fa fa-behance"></i>
-      </a>
-    </li>
-  </ul>
-</aside>
+</body>
+</html>
